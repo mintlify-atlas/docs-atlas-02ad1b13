@@ -1,0 +1,124 @@
+{
+  "projectType": "saas",
+  "projectName": "Fragments",
+  "projectDescription": "AI-powered code generation platform that creates and executes code fragments in sandboxed environments.",
+  "theme": "almond",
+  "primaryColor": "#d2bba1",
+  "lightColor": "#7b7c7b",
+  "darkColor": "#0e0c0b",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/ai-code-generation",
+              "features/templates",
+              "features/sandboxed-execution",
+              "features/streaming"
+            ]
+          },
+          {
+            "group": "Templates",
+            "pages": [
+              "templates/overview",
+              "templates/python-interpreter",
+              "templates/nextjs",
+              "templates/vue",
+              "templates/streamlit",
+              "templates/gradio",
+              "templates/custom"
+            ]
+          },
+          {
+            "group": "LLM Providers",
+            "pages": [
+              "llm-providers/overview",
+              "llm-providers/openai",
+              "llm-providers/anthropic",
+              "llm-providers/google",
+              "llm-providers/mistral",
+              "llm-providers/groq",
+              "llm-providers/fireworks",
+              "llm-providers/ollama",
+              "llm-providers/custom"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/environment-variables",
+              "configuration/authentication",
+              "configuration/rate-limiting",
+              "configuration/deployment"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/creating-templates",
+              "guides/adding-llm-providers",
+              "guides/customization",
+              "guides/morph-integration"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api-reference/chat",
+              "api-reference/morph-chat",
+              "api-reference/sandbox"
+            ]
+          },
+          {
+            "group": "Types",
+            "pages": [
+              "api-reference/fragment-schema",
+              "api-reference/models",
+              "api-reference/templates"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "AI-powered code generation with streaming UI",
+    "Secure sandboxed code execution via E2B",
+    "Multiple framework templates (Next.js, Vue, Streamlit, Gradio, Python)",
+    "Support for 10+ LLM providers",
+    "Real-time code editing with Morph integration",
+    "Multi-modal input support (text and images)",
+    "User authentication with Supabase",
+    "Rate limiting and analytics"
+  ],
+  "publicApiSurface": [
+    "/api/chat - Generate code fragments using AI",
+    "/api/morph-chat - Edit existing code using Morph AI",
+    "/api/sandbox - Execute code in sandboxed environment",
+    "FragmentSchema - Type definition for code fragments",
+    "LLMModel - Supported AI model configuration",
+    "Templates - Available framework templates"
+  ]
+}
